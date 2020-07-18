@@ -34,4 +34,15 @@ console.log(Number.MAX_VALUE * -10);
 */
 
 console.log(Number.MIN_VALUE);
-console.log('trin love js');
+
+
+/* 
+    Number is Object Global Convert string to number. use 
+    - parseInt() convert string to Integer.
+    - parseFloat() covert string to Decimal number. 
+ */
+console.log(Number.parseInt("15")); // 15
+console.log(Number.parseFloat("198.98")); // 198.98
+console.log(Number.parseInt("abc")); // NaN
+console.log(Number.parseFloat("abc")) //
+
