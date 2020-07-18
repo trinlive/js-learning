@@ -1,9 +1,9 @@
 console.log(100, 0, -0, -300, 3.14, -78.222);
+
 // 200 x 10 raised to the power 10
 console.log(200e5);
 // 2 x 10 raised to the power -5
 console.log(2E-5);
-
 //Take the square root of -1
 console.log(Math.sqrt(-1));
 // 0 divided 0 doesn't have a definition
@@ -34,3 +34,4 @@ console.log(Number.MAX_VALUE * -10);
 */
 
 console.log(Number.MIN_VALUE);
+console.log('trin love js');
