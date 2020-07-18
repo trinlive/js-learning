@@ -14,7 +14,7 @@
     The word "undefined"
 */
 
-console.log(null === undefined); // flase
-console.log(null == undefined); // ture
+console.log(null === undefined); // false
+console.log(null == undefined); // true
 console.log(typeof null); // object
 console.log(typeof undefined); // undefined
