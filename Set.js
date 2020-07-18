@@ -13,3 +13,9 @@ console.log(typeof citiesSet); // object
 const uniqueCities = Array.from(citiesSet);
 console.log(uniqueCities); // [ 'London', 'New York', 'Sofia' ]
 console.log(typeof (uniqueCities)); // object
+
+
+let array = [100, 23, 23, 23, 23, 67, 45];
+let outputArray = Array.from(new Set(array));
+console.log(outputArray); // [100, 23, 67, 45 ]
+
