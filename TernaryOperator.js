@@ -8,10 +8,10 @@ if (hungry == true) {
     eat = 'no';
 }
 
-console.log(eat);
+console.log(eat); //no
 
 /* Pro */
 var hungry = true;
 var eat = hungry == true ? 'yes' : 'no';
-console.log(eat);
+console.log(eat); //yes
 
