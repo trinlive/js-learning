@@ -46,3 +46,25 @@ console.log(Number.parseFloat("198.98")); // 198.98
 console.log(Number.parseInt("abc")); // NaN
 console.log(Number.parseFloat("abc")) //
 
+
+/* Number To string and string to number */
+/* Amateur */
+var num = 15;
+var s = num.toString(); //number to string
+console.log(typeof (s)); //string
+console.log(s); // "15"
+
+var n = Number(s); //string to number
+console.log(typeof (n)); //number
+console.log(n); //15
+
+
+/* Pro */
+var num = 15;
+var s = num + ""; //number to string
+console.log(s); // "15"
+console.log(typeof (s)); //string
+
+var n = +s; //string to number
+console.log(typeof (n)); //number 
+console.log(n); // 15
