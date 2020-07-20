@@ -44,7 +44,44 @@ console.log(Number.MIN_VALUE);
 console.log(Number.parseInt("15")); // 15
 console.log(Number.parseFloat("198.98")); // 198.98
 console.log(Number.parseInt("abc")); // NaN
-console.log(Number.parseFloat("abc")) //
+console.log(Number.parseFloat("abc")) // NaN
+
+/* Not Use Object Number*/
+console.log(parseInt("86")); // 86
+console.log(parseFloat("344.23")) // 344.23
+console.log(typeof (global.parseInt)); // function
+console.log(typeof (global.parseFloat)); // function
+
+
+/* 
+    Base number 2, base 8 and base 16
+    Binary literals Base Number2 use 0b or 0B Prefix numbers.
+    Octal literals Base Number8 use 0o or 0O Prefix numbers.
+    Hexadecimal literal Base Number16 0x or 0X Prefix numbers.
+
+    In the example, it can be seen that Number() can be used to convert
+    strings written as base 2, 8, and 16 into decimal numbers, but when
+    using Number.paresInt() with string written as base2 and 8, the result is 0.
+*/
+console.log(Number("100")); // 100
+console.log(Number("0b111")); // 7
+console.log(Number("0o45")); // 37
+console.log(Number("0x17")); // 23
+console.log(Number.parseInt("100")); // 100
+console.log(Number.parseInt("0b111")); // 0
+console.log(Number.parseInt("0o45")); // 0
+console.log(Number.parseInt("0x17")); // 23
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Number To string and string to number */
