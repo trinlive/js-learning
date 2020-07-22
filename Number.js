@@ -73,6 +73,41 @@ console.log(Number.parseInt("0o45")); // 0
 console.log(Number.parseInt("0x17")); // 23
 
 
+/*  20200722
+    Number.isFinite() check numbers that have infinite values 
+    or -infininter and Number.isNaN() check variable have NaN value 
+*/
+
+console.log(isFinite(2020)); // true
+console.log(isFinite("2020")); // true
+console.log(Number.isFinite(2020)); //true
+console.log(Number.isFinite("2020")); // false
+
+console.log(isNaN(NaN)); // true
+console.log(isNaN("NaN")); // true
+console.log(Number.isNaN(NaN)); // true
+console.log(Number.isNaN("NaN")); // false
+
+console.log(typeof (global.isFinite)); // function
+console.log(typeof (global.isNaN)); // function
+
+
+/* 20200722
+    Number.isInteger() aand Number.isSafeInteger()
+ 
+    Integer and decimal numbers in JS are stored in memory in different ways.
+    But sometimes decimal numbers are stored as integers. For example, 34.0 contains 0 decimal points.
+    At the end, which you might think is a decimal number, but it actually holds an integer 34 (omits decimal).
+
+    But in ES6, adding methods to check numbers Whether it is stored as an integer or not, using Number.isInterger ()
+    If checking is an integer, the result will be true, but if not it will be false as in the example.
+
+*/
+
+console.log(Number.isInteger(34.6)); // false
+console.log(Number.isInteger(34.0)); // true
+console.log(Number.isInteger(34)); // true
+
 
 
 
