@@ -92,7 +92,8 @@ console.log(typeof (global.isFinite)); // function
 console.log(typeof (global.isNaN)); // function
 
 
-/* 20200722
+/* 
+    20200722
     Number.isInteger() aand Number.isSafeInteger()
  
     Integer and decimal numbers in JS are stored in memory in different ways.
