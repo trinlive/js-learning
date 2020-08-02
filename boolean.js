@@ -26,4 +26,5 @@ console.log(btrueString);   // true
 console.log(bfalseString);  // true
 console.log(bSuLin);        // true
 console.log(bArrayProto);   // true
-console.log(bObjProto);     // true
+console.log(bObjProto);     // true yes
+
