@@ -19,8 +19,42 @@ for (i = 0; i < cars.length; i++) {
     * do/while - also loops ghrough a block of code while a specified condition is true 
 */
 
+// for
 for (i = 0, len = cars.length, text = "  "; i < len; i++) {
     text += cars[i] + " ";
     console.log(text);
 }
 
+// for/in
+var person = {fname:"John", lname:"Doe", age:25};
+console.log(typeof(person));
+
+var text = "";
+var x;
+for (x in person) {
+    text += person[x] + " ";
+    console.log(text);
+}
+
+
+/* For/Of Loop */
+
+// Looping over an Array
+var cars = ['BMW', 'Volvo', 'Mini'];
+var x;
+
+console.log(typeof(cars));
+console.log(cars);
+
+
+for (x of cars) {
+    console.log(x);
+} 
+
+// Looping over a String
+var txt = 'JavaScript';
+var x;
+
+for (x of txt) {
+    console.log(x);
+}
