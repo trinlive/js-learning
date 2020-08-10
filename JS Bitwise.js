@@ -25,7 +25,22 @@ console.log(1 & 0) // 1111 & 0010  = 0010
 console.log(1 & 1) // 1111 & 0100  = 0100 
 
 
+// JS Convert Decimal to Binary
+
+x = -5;
+
+function dec2bin(dec) {
+    return (dec >>> 0).toString(2);
+}
 
 
+console.log(dec2bin(x)); // 11111111111111111111111111111011
+
+// JS Convert Binary to Decimal
+
+function bin2dec(bin) {
+    return parseInt(bin, 2).toString(10);
+}
 
 
+console.log(bin2dec(10111)); // 23
