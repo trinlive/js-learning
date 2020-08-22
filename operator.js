@@ -142,6 +142,26 @@ b -= "1";
 console.log(b); // NaN
 
 
+/* Comparison Operators */
 
+console.log(10 == 2); // false
+console.log("10" == 10); // true 
+console.log(10 == '10') // true
+console.log(1 == true); // true
+console.log(0 == false); // true
+console.log(null == undefined); // true
+console.log("foo" == "foo"); // true
+
+console.log(10 != 2); // true
+console.log(10 != "10"); // false
+console.log(10 != '10'); // false
+console.log(1 != true); // false
+console.log(0 != false) // false
+console.log("foo" != "foo") // false
+
+console.log(10 === 10); // true
+console.log("10" === 10) // false
+console.log(1 === true) // false
+console.log("foo" === "foo") // true
 
 
