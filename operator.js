@@ -97,7 +97,10 @@ var a = 20;
 a %= 10; // like x = x % y
 console.log(a); // 0
 
-/* Operatos in the table above This can be used with a Boolean data type, or it will get the same performance as when used. Mathematical operators*/
+/* 
+    Operatos in the table above This can be used with a Boolean data type, 
+    or it will get the same performance as when used. Mathematical operators
+*/
 var a = 20;
 a += true; // like x = x + y
 console.log(a); // 21
@@ -163,5 +166,6 @@ console.log(10 === 10); // true
 console.log("10" === 10) // false
 console.log(1 === true) // false
 console.log("foo" === "foo") // true
+console.log("😂" === "😂") // true
 
 
